@@ -182,7 +182,7 @@ with open('lib_list_df.csv', 'r') as csv_file:
         airbag_folder = 'noairbag' if airbag == 0 else 'airbag'
         
         # Create the full folder path
-        folder_path = f'C:\\Users\\jackb\\OneDrive - Maastricht University\\Jack_MADYMO\\MADYMO_Library\\simulations\\{mph_folder}\\{pass_folder}\\{belt_folder}\\{airbag_folder}\\madymo'
+        folder_path = f'C:\\Users\\jackb\\OneDrive - Maastricht University\\Jack_MADYMO\\MADYMO-Library\\simulations\\{mph_folder}\\{pass_folder}\\{belt_folder}\\{airbag_folder}\\madymo'
         
         # Add the command to the batch content
         batch_content += f'cd /d "{folder_path}"\n"C:\\Program Files\\Madymo\\madymo_2212\\em64t-win\\bin\\madymo2212.exe" "madymo.xml"\n'
